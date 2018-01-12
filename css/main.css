@@ -29,7 +29,7 @@ body {
 
 header {
   padding: .5rem 0;
-  background-color: #F5F5DC;
+  background-color: #ffffcc;
   text-align: center;
 }
 
@@ -39,11 +39,29 @@ h1 {
   font-family:'Sacramento', cursive;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;font-size: 2rem;
+  font-weight: 700;
+  font-size: 2rem;
   margin: 0 0 .5rem;
   color: #fff;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0 0 .5rem;
+  color: #000;
+}
+
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0 0 .5rem;
+  color: #000;
 }
 
 nav ul {
@@ -56,6 +74,7 @@ nav li {
   text-align: left;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 nav a {
@@ -111,7 +130,7 @@ a:hover {
   width: 70%;
 }
 
-.cameo {
+.woman {
   float: left;
   width: 27%;
   margin-right: 3%;
@@ -127,20 +146,6 @@ a:hover {
   transform: rotate(-4deg);
   margin-bottom: 10px;
   border: none;
-  float: left;
-  width: 70%;
-}
-
-.info {
-  overflow: hidden;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
-  padding: 20px 0;
-}
-
-.info:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
 }
 
 .news h2 {
@@ -150,16 +155,14 @@ a:hover {
   transform: rotate(-4deg);
   margin-bottom: 10px;
   border: none;
+}
+
+.news .summary {
   float: left;
   width: 70%;
 }
 
-.news .info {
-  float: left;
-  width: 70%;
-}
-
-.stars {
+.counter {
   float: left;
   width: 27%;
   margin-right: 3%;
