@@ -68,8 +68,26 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #800080;
+  background-color: #9932CC;
   color: #fff;
+}
+
+section:nth-child(2n+1) {
+  background: #fefefe;
+}
+section:nth-child(2n+2) {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9932CC;
+  text-decoration: none;
 }
 
 .content {
@@ -81,7 +99,7 @@ nav a:hover {
 }
 
 .story h2 {
-  background: #2C808C;
+  background: #9932CC;
   display: inline-block;
   padding: 10px 20px;
   transform: rotate(-4deg);
@@ -92,6 +110,7 @@ nav a:hover {
   float: left;
   width: 70%;
 }
+
 .cameo {
   float: left;
   width: 27%;
@@ -102,7 +121,7 @@ nav a:hover {
 }
 
 .chocolates h2 {
-  background: #2C808C;
+  background: #9932CC;
   display: inline-block;
   padding: 10px 20px;
   transform: rotate(-4deg);
