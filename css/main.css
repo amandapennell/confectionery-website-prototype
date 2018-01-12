@@ -19,8 +19,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-family: 'Arbutus Slab', serif;
   line-height: 1.5;
   background: url(../images/assorted.jpg) no-repeat fixed 50%;
   background-size: cover;
@@ -41,8 +40,8 @@ h1 {
 }
 
 h2, h3 {
-  font-family: "Sacramento", cursive;
-  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;font-size: 2rem;
   margin: 0 0 .5rem;
   color: #fff;
 }
@@ -55,7 +54,7 @@ nav ul {
 
 nav li {
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
 }
 
@@ -67,7 +66,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #9932CC;
+  background-color: #330033;
   color: #fff;
 }
 
@@ -86,7 +85,7 @@ a {
 }
 
 a:hover {
-  color: #9932CC;
+  color: #330033;
   text-decoration: none;
 }
 
@@ -99,7 +98,7 @@ a:hover {
 }
 
 .story h2 {
-  background: #9932CC;
+  background: #330033;
   display: inline-block;
   padding: 10px 20px;
   transform: rotate(-4deg);
@@ -122,7 +121,7 @@ a:hover {
 }
 
 .chocolates h2 {
-  background: #9932CC;
+  background: #330033;
   display: inline-block;
   padding: 10px 20px;
   transform: rotate(-4deg);
@@ -145,7 +144,7 @@ a:hover {
 }
 
 .news h2 {
-  background: #9932CC;
+  background: #330033;
   display: inline-block;
   padding: 10px 20px;
   transform: rotate(-4deg);
@@ -169,22 +168,35 @@ a:hover {
   border-radius: 50%;
 }
 
+.contact {
+  background: #111;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contact p:first-of-type {
+  margin-top: 2.2rem;
+}
+
+.contact .socmed {
+  width: 50%;
+  float: right;
+  text-align: right;
+  font-size: 2rem;
+}
+
+.contact .socmed a {
+  margin: 0 .5rem;
+}
+
 footer {
   font-size: .8rem;
   color: #fff;
   clear: both;
   text-align: center;
   margin: 0;
-}
-
-.contact {
-  background: #111;
-}
-.contact p {
-  margin: 0;
-}
-.contact p:first-of-type {
-  margin-top: 35px;
 }
 
 @media only screen and (min-width: 25em) {
