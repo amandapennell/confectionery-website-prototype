@@ -151,6 +151,12 @@ a:hover {
   border: none;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+
 .news h2 {
   background: #000033;
   display: inline-block;
