@@ -56,6 +56,7 @@ h3 {
   font-size: 2rem;
   margin: 0 0 .5rem;
   color: #000033;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -156,6 +157,26 @@ a:hover {
   width: 100%;
 }
 
+.product {
+  overflow: hidden;
+  border: 5px solid #000033;
+  border-radius: 10px;
+}
+
+.product header {
+  text-align: left;
+  background-color: #cc9933;
+  padding: .2rem 1rem;
+}
+
+.product-body {
+  padding: .2rem 1rem;
+}
+
+.product-title {
+  margin: 0;
+  padding: .3rem 1rem;
+}
 
 .news h2 {
   background: #000033;
