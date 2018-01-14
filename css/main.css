@@ -19,7 +19,6 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Josefin Slab', serif;
   color: #000033;
   line-height: 1.5;
   background: url(../images/assorted.jpg) no-repeat fixed 50%;
@@ -137,6 +136,33 @@ a:hover {
   width: 70%;
 }
 
+.summary {
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.summary h4 {
+  background-color: #cc9933;
+  color: #000033;
+  text-align: center;
+  display: block;
+  padding: 10px 15px 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.detail {
+  color: #000033;
+  background-color: #cc9933;
+  border: none;
+  padding: 15px 15px 5px;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
 .woman {
   float: left;
   width: 27%;
@@ -177,6 +203,10 @@ a:hover {
 
 .product-body {
   padding: .2rem 1rem;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 600;
+  font-size: .8rem;
+  text-transform: uppercase;
 }
 
 .product-title {
