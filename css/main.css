@@ -46,7 +46,7 @@ h2 {
   font-weight: 700;
   font-size: 2rem;
   margin: 0 0 .5rem;
-  color: #cc9933;
+  color: #000033;
   text-transform: uppercase;
 }
 
@@ -55,7 +55,7 @@ h3 {
   font-weight: 700;
   font-size: 2rem;
   margin: 0 0 .5rem;
-  color: #000033;
+  color: #cc9933;
   text-transform: uppercase;
 }
 
@@ -64,7 +64,9 @@ h4 {
   font-weight: 700;
   font-size: 1.5rem;
   margin: 0 0 .5rem;
-  color: #000033;
+  padding-top: 1rem;
+  color: #cc9933;
+  text-transform: uppercase;
 }
 
 nav ul {
@@ -90,25 +92,25 @@ nav a {
 
 nav a:hover {
   background-color: #cc9933;
-  color: #000033;
+  color: #663300;
 }
 
 section:nth-child(2n+1) {
-  background: #ffffcc;
+  color: #ffffcc;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 section:nth-child(2n+2) {
-  color: #ffffcc;
-  background: rgba(0, 0, 0, 0.8);
+  background-color: #ffffcc;
 }
 
 a {
-  color: #ffffcc;
+  color: #000033;
   text-decoration: none;
 }
 
 a:hover {
-  color: #000033;
+  color: #ffffcc;
   text-decoration: none;
 }
 
@@ -121,12 +123,13 @@ a:hover {
 }
 
 .story h2 {
-  background: #000033;
+  background: #cc9933;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px 15px 5px;
   transform: rotate(-4deg);
   margin-bottom: 10px;
   border: none;
+  border-radius: 10px;
 }
 
 .story .summary {
@@ -139,17 +142,20 @@ a:hover {
   width: 27%;
   margin-right: 3%;
   padding: 4px;
-  border: 1px solid #ddd;
+  border: 2px solid #996633;
   border-radius: 50%;
 }
 
 .chocolates h2 {
-  background: #cc9933;
-  color: #000033;
+  background: #000033;
+  color: #cc9933;
+  text-align: center;
   display: inline-block;
-  padding: 20px 20px;
+  padding: 15px 15px 5px;
   margin-bottom: 10px;
+  width: 100%;
   border: none;
+  border-radius: 10px;
 }
 
 .img-flex {
@@ -159,13 +165,13 @@ a:hover {
 
 .product {
   overflow: hidden;
-  border: 5px solid #000033;
+  border: none;
   border-radius: 10px;
 }
 
 .product header {
-  text-align: left;
-  background-color: #cc9933;
+  text-align: center;
+  background-color: #000033;
   padding: .2rem 1rem;
 }
 
@@ -179,12 +185,13 @@ a:hover {
 }
 
 .news h2 {
-  background: #000033;
+  background: #cc9933;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px 15px 5px;
   transform: rotate(-4deg);
   margin-bottom: 10px;
   border: none;
+  border-radius: 10px;
 }
 
 .news .summary {
@@ -192,12 +199,12 @@ a:hover {
   width: 70%;
 }
 
-.counter {
+.ice-cream {
   float: left;
   width: 27%;
   margin-right: 3%;
   padding: 4px;
-  border: 1px solid #ddd;
+  border: 2px solid #663300;
   border-radius: 50%;
 }
 
@@ -206,12 +213,15 @@ a:hover {
 }
 
 .contact h2 {
-  background: #cc9933;
-  color: #000033;
+  background: #000033;
+  color: #cc9933;
+  text-align: center;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 15px 15px 5px;
   margin-bottom: 10px;
+  width: 100%;
   border: none;
+  border-radius: 10px;
 }
 
 .contact p {
