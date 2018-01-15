@@ -18,10 +18,10 @@ html {
 }
 
 body {
-  font-family: Josefin Sans, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #003;
   line-height: 1.5;
-  background: url(../images/assorted.jpg) no-repeat fixed 50%;
+  background: url"images/assorted.jpg" no-repeat fixed 50%;
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -36,13 +36,13 @@ header {
 h1 {
   margin: 0 0 .5rem;
   font-size: 4rem;
-  font-family:'Sacramento', cursive;
+  font-family:"Sacramento", cursive;
   color: #003;
 }
 
 h2 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
   font-size: 2rem;
   margin: 0 0 .5rem;
   color: #003;
@@ -50,8 +50,8 @@ h2 {
 }
 
 h3 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
   font-size: 2rem;
   margin: 0 0 .5rem;
   color: #c93;
@@ -59,8 +59,8 @@ h3 {
 }
 
 h4 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
   font-size: 1rem;
   margin: 0 0 .5rem;
   padding-top: 1rem;
@@ -82,8 +82,8 @@ nav ul {
 
 nav li {
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
   float: left;
   width: 50%;
   text-transform: uppercase;
@@ -111,7 +111,7 @@ nav a:hover {
 
 section:nth-child(2n+1) {
   color: #ffc;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, .8);
 }
 
 section:nth-child(2n+2) {
@@ -137,7 +137,7 @@ section:nth-child(2n+2) {
 }
 
 .summary {
-  font-family: Josefin Sans, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   font-size: .75rem;
 }
@@ -206,7 +206,7 @@ section:nth-child(2n+2) {
 .product-body {
   padding: .2rem 1rem;
   text-align: justify;
-  font-family: Josefin Sans, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   font-size: .8rem;
   background-color: #003;
@@ -236,7 +236,7 @@ section:nth-child(2n+2) {
 
 .detail dt {
   font-size: .75rem;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
   padding: 0 6px;
 }
@@ -307,7 +307,6 @@ footer {
   text-align: center;
   margin: 0;
 }
-
 
 @media only screen and (min-width: 25em) {
 
