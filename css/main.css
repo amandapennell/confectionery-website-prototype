@@ -36,7 +36,7 @@ header {
 h1 {
   margin: 0 0 .5rem;
   font-size: 4rem;
-  font-family:"Sacramento", cursive;
+  font-family: "Sacramento", cursive;
   color: #003;
 }
 
@@ -213,9 +213,10 @@ section:nth-child(2n+2) {
 }
 
 .product header {
-  text-align: center;
   background-color: #003;
   padding: .2rem 1rem;
+  text-align: left;
+  position: relative;
 }
 
 .product-body {
@@ -228,9 +229,19 @@ section:nth-child(2n+2) {
   color: #c93;
 }
 
+.product-label {
+  color: #c93;
+  padding: 8rem .2rem 0 .4rem;
+}
+
 .product-title {
   margin: 0;
   padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 51, .6);
 }
 
 .news h2 {
@@ -249,18 +260,26 @@ section:nth-child(2n+2) {
   font-size: .75rem;
 }
 
+.detail dl {
+  padding-left: 0;
+}
+
 .detail dt {
   font-size: .75rem;
   font-weight: bold;
   font-style: normal;
-  padding: 0 6px;
+  text-align: center;
+  padding: 0 6px 0;
+  margin-left: 0;
 }
 
 .detail dd {
   font-size: .75rem;
   font-weight: 600;
   font-style: italic;
-  padding: 6px;
+  text-align: center;
+  padding: 6px 0;
+  margin-left: 0;
 }
 
 .ice-cream {
