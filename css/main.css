@@ -88,6 +88,7 @@ nav li {
   width: 50%;
   text-transform: uppercase;
   color: #003;
+  border: 1px solid #ffc;
 }
 
 nav a {
