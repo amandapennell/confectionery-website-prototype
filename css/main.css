@@ -19,8 +19,7 @@ html {
 
 body {
   font-family: Josefin Sans, sans-serif;
-  margin: 0;
-  color: #000033;
+  color: #003;
   line-height: 1.5;
   background: url(../images/assorted.jpg) no-repeat fixed 50%;
   background-size: cover;
@@ -30,7 +29,7 @@ body {
 
 header {
   padding: .5rem 0;
-  background-color: #ffffcc;
+  background-color: #ffc;
   text-align: center;
 }
 
@@ -38,7 +37,7 @@ h1 {
   margin: 0 0 .5rem;
   font-size: 4rem;
   font-family:'Sacramento', cursive;
-  color: #000033;
+  color: #003;
 }
 
 h2 {
@@ -46,7 +45,7 @@ h2 {
   font-weight: 700;
   font-size: 2rem;
   margin: 0 0 .5rem;
-  color: #000033;
+  color: #003;
   text-transform: uppercase;
 }
 
@@ -55,7 +54,7 @@ h3 {
   font-weight: 700;
   font-size: 2rem;
   margin: 0 0 .5rem;
-  color: #cc9933;
+  color: #c93;
   text-transform: uppercase;
 }
 
@@ -65,8 +64,13 @@ h4 {
   font-size: 1rem;
   margin: 0 0 .5rem;
   padding-top: 1rem;
-  color: #cc9933;
+  color: #c93;
   text-transform: uppercase;
+}
+
+a {
+  color: #003;
+  text-decoration: none;
 }
 
 nav ul {
@@ -95,6 +99,11 @@ nav a {
   border: none;
 }
 
+a:hover {
+  color: #ffffcc;
+  text-decoration: none;
+}
+
 nav a:hover {
   background-color: #cc9933;
   color: #663300;
@@ -107,16 +116,6 @@ section:nth-child(2n+1) {
 
 section:nth-child(2n+2) {
   background-color: #ffffcc;
-}
-
-a {
-  color: #000033;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ffffcc;
-  text-decoration: none;
 }
 
 .content {
