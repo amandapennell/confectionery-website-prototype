@@ -62,7 +62,7 @@ h3 {
 h4 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 0 0 .5rem;
   padding-top: 1rem;
   color: #cc9933;
@@ -195,6 +195,7 @@ a:hover {
   overflow: hidden;
   border: none;
   border-radius: 10px;
+  margin: .75rem 0;
 }
 
 .product header {
@@ -205,11 +206,12 @@ a:hover {
 
 .product-body {
   padding: .2rem 1rem;
+  text-align: justify;
   font-family: Josefin Sans, sans-serif;
   font-weight: 600;
   font-size: .8rem;
-  text-transform: uppercase;
   background-color: #000033;
+  color: #cc9933;
 }
 
 .product-title {
@@ -219,17 +221,14 @@ a:hover {
 
 .news h2 {
   background: #cc9933;
+  color: #000033;
+  text-align: center;
   display: inline-block;
-  padding: 10px 15px 5px;
-  transform: rotate(-4deg);
+  padding: 15px 15px 5px;
   margin-bottom: 10px;
+  width: 100%;
   border: none;
   border-radius: 10px;
-}
-
-.news .summary {
-  float: left;
-  width: 70%;
 }
 
 .flavours {
@@ -237,14 +236,14 @@ a:hover {
 }
 
 .detail dt {
-  font-size: 1rem;
+  font-size: .75rem;
   font-weight: 700;
   font-style: normal;
   padding: 0 6px;
 }
 
 .detail dd {
-  font-size: 1rem;
+  font-size: .75rem;
   font-weight: 600i;
   font-style: italic;
   padding: 6px;
@@ -257,6 +256,7 @@ a:hover {
   padding: 4px;
   border: 2px solid #663300;
   border-radius: 50%;
+  display: none;
 }
 
 .contact {
@@ -284,14 +284,21 @@ a:hover {
 }
 
 .contact .socmed {
-  width: 50%;
-  float: right;
-  text-align: right;
-  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
 }
 
 .contact .socmed a {
   margin: 0 .5rem;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
 }
 
 footer {
