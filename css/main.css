@@ -87,35 +87,35 @@ nav li {
   float: left;
   width: 50%;
   text-transform: uppercase;
-  color: #000033;
+  color: #003;
 }
 
 nav a {
   display: block;
   padding: .5em .75em;
-  color: #000033;
-  background-color: #cc9933;
+  color: #003;
+  background-color: #c93;
   text-decoration: none;
   border: none;
 }
 
 a:hover {
-  color: #ffffcc;
+  color: #ffc;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #cc9933;
-  color: #663300;
+  background-color: #c93;
+  color: #630;
 }
 
 section:nth-child(2n+1) {
-  color: #ffffcc;
+  color: #ffc;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 section:nth-child(2n+2) {
-  background-color: #ffffcc;
+  background-color: #ffc;
 }
 
 .content {
@@ -125,8 +125,8 @@ section:nth-child(2n+2) {
 }
 
 .story h2 {
-  background: #cc9933;
-  color: #000033;
+  background: #c93;
+  color: #003;
   text-align: center;
   display: inline-block;
   padding: 15px 15px 5px;
@@ -143,8 +143,8 @@ section:nth-child(2n+2) {
 }
 
 .summary h4 {
-  background-color: #cc9933;
-  color: #000033;
+  background-color: #c93;
+  color: #003;
   text-align: center;
   display: block;
   padding: 10px 15px 5px;
@@ -155,8 +155,8 @@ section:nth-child(2n+2) {
 }
 
 .detail {
-  color: #000033;
-  background-color: #cc9933;
+  color: #003;
+  background-color: #c93;
   border: none;
   padding: 15px 15px 5px;
   border-radius: 10px;
@@ -168,14 +168,14 @@ section:nth-child(2n+2) {
   width: 27%;
   margin-right: 3%;
   padding: 4px;
-  border: 2px solid #996633;
+  border: 2px solid #963;
   border-radius: 50%;
   display: none;
 }
 
 .chocolates h2 {
-  background: #000033;
-  color: #cc9933;
+  background: #003;
+  color: #c93;
   text-align: center;
   display: inline-block;
   padding: 15px 15px 5px;
@@ -199,7 +199,7 @@ section:nth-child(2n+2) {
 
 .product header {
   text-align: center;
-  background-color: #000033;
+  background-color: #003;
   padding: .2rem 1rem;
 }
 
@@ -209,8 +209,8 @@ section:nth-child(2n+2) {
   font-family: Josefin Sans, sans-serif;
   font-weight: 600;
   font-size: .8rem;
-  background-color: #000033;
-  color: #cc9933;
+  background-color: #003;
+  color: #c93;
 }
 
 .product-title {
@@ -219,8 +219,8 @@ section:nth-child(2n+2) {
 }
 
 .news h2 {
-  background: #cc9933;
-  color: #000033;
+  background: #c93;
+  color: #003;
   text-align: center;
   display: inline-block;
   padding: 15px 15px 5px;
@@ -253,18 +253,18 @@ section:nth-child(2n+2) {
   width: 27%;
   margin-right: 3%;
   padding: 4px;
-  border: 2px solid #663300;
+  border: 2px solid #630;
   border-radius: 50%;
   display: none;
 }
 
 .contact {
-  background: #000033;
+  background: #003;
 }
 
 .contact h2 {
-  background: #000033;
-  color: #cc9933;
+  background: #003;
+  color: #c93;
   text-align: center;
   display: inline-block;
   padding: 15px 15px 5px;
@@ -302,7 +302,7 @@ figcaption {
 
 footer {
   font-size: .8rem;
-  color: #fff;
+  color: #ffc;
   clear: both;
   text-align: center;
   margin: 0;
