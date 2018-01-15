@@ -21,7 +21,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: #003;
   line-height: 1.5;
-  background: url"images/assorted.jpg" no-repeat fixed 50%;
+  background: url("../images/assorted.jpg") no-repeat fixed 50%;
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -140,6 +140,21 @@ section:nth-child(2n+2) {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   font-size: .75rem;
+}
+
+.summary h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #c93;
+  display: block;
+  text-align: center;
+  padding: 10px 15px 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #003;
+  text-transform: uppercase;
 }
 
 .summary h4 {
